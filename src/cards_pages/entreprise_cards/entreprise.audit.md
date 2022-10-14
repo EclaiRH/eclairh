@@ -10,7 +10,7 @@ jqueryClass: audit
 bgColor:  bg_blue
 backTitleColor: yellow
 textColor: white
-description: ["Phase indispensable pour tous ceux qui cherchent à améliorer leur organisation :"]
+description: ["Phase d'analyse constructive et axes d'amélioration"]
 descriptionListItem: ["Etat des lieux complet / Analyse 360°","Projection cible","Préconisations et feuille de route"]
 buttonBack: card_btn
 ---

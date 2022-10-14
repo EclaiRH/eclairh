@@ -10,7 +10,7 @@ jqueryClass: conseil
 bgColor:  bg_yellow
 backTitleColor: blue
 textColor: blue
-description: ["Ponctuel ou permanent", "Un véritable support à l'adresse des :"]
+description: ["Ponctuel ou permanent", "Un véritable support pour:"]
 descriptionListItem: ["Entreprises","Associations", "Particuliers","IRP","Médecins (généralistes, du travail)"]
 buttonBack: card_btn_back
 ---

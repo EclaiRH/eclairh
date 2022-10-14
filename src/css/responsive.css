@@ -14,9 +14,21 @@
         width: 100% !important;
         margin: 25px 0;
     }
+    .about_container{
+       padding-left: 1rem;
+       padding-right: 1rem;
+    }
+    
+}
+
+@media only screen and (max-width: 576px){
+    .about_container{
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 768px) {
     
+   
     .container_img{
         height: 150px;
     }

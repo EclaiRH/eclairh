@@ -384,6 +384,7 @@ img {
     margin-bottom: 2rem;
     justify-content: center;
 }
+
 .expertise_img_container {
     display: flex;
     flex-direction: column;
@@ -392,6 +393,7 @@ img {
     margin-bottom: 2rem;
     justify-content: center;
 }
+
 .card_img {
     display: block;
     margin-left: auto;
@@ -887,9 +889,12 @@ img {
     background-color: #FECD17;
     z-index: -1;
 }
-.carousel-control-next, .carousel-control-prev{
+
+.carousel-control-next,
+.carousel-control-prev {
     width: fit-content;
 }
+
 /* fin boostrap overrider */
 .card_title_service {
     width: fit-content;
@@ -996,7 +1001,8 @@ img {
     color: #3C405B;
     margin-bottom: 35px;
 }
-.description_section{
+
+.description_section {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: medium;
@@ -1004,6 +1010,7 @@ img {
     letter-spacing: 0px;
     color: #3C405B;
 }
+
 .description_subsection {
 
     text-align: left;
@@ -1018,11 +1025,13 @@ img {
     list-style: none;
     width: fit-content;
 }
-.bullet_list_arrow{
+
+.bullet_list_arrow {
     padding: 0.5rem 0;
     position: relative;
 }
-.bullet_list_arrow::before{
+
+.bullet_list_arrow::before {
     content: "";
     position: absolute;
     top: 12px;
@@ -1034,11 +1043,13 @@ img {
     background-repeat: no-repeat;
 
 }
-.check_list{
+
+.check_list {
     position: relative;
 
 }
-.check_list::before{
+
+.check_list::before {
     content: "";
     position: absolute;
     top: 12px;
@@ -1049,6 +1060,7 @@ img {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
 .service_block {
     position: relative;
 }
@@ -1062,12 +1074,14 @@ img {
     background: #E7D7C0 0% 0% no-repeat padding-box;
     z-index: -1;
 }
-.sqr_bullet_li{
+
+.sqr_bullet_li {
     padding: 0.5rem 0;
     position: relative;
 
 }
-.sqr_bullet_li::before{
+
+.sqr_bullet_li::before {
     content: "";
     position: absolute;
     top: 16px;
@@ -1191,7 +1205,7 @@ img {
 .section_title_p {
     position: relative;
     width: fit-content;
-
+    margin-bottom: 2rem;
     text-align: left;
     font-family: 'Poppins', sans-serif;
     font-style: italic;
@@ -1247,7 +1261,7 @@ img {
 /*          CONTACT PAGE        */
 
 .contact_bg {
-    
+
     background: transparent linear-gradient(180deg, #E7D7C0 0%, #FEFDF6 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -1326,9 +1340,50 @@ input::-webkit-datetime-edit {
     font-weight: normal;
     letter-spacing: 0px;
     color: #3C405B;
+    
 }
+
 
 .contact_info span {
     color: #FFD229;
-
 }
+
+/*  About page  */
+.about_title,
+.about_text {
+    font-family: 'Bonheur Royale', cursive;
+    /*font-family: 'Dancing Script', cursive;*/
+}
+
+.about_container {
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about {
+    position: relative;
+    padding: 5rem 0;
+}
+
+.about::after {
+    position: absolute;
+    top: 0;
+    content: "";
+    height: 75%;
+    width: 100%;
+    background: #E7D7C0 0% 0% no-repeat padding-box;
+    z-index: -1;
+}
+
+.about_title {
+    font-size: 2.5rem;
+}
+
+.about_text {
+    font-size: 1.75rem;
+}
+
+/**/
