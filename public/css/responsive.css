@@ -1,0 +1,130 @@
+#nav_mobile {
+    display: none;
+}
+.nav_link_md:hover, .nav_link_md:focus{
+    color: unset !important;
+}
+.toggler_over:focus{
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none !important;
+}
+@media only screen and (max-width: 400px){
+    .card_container{
+        width: 100% !important;
+        margin: 25px 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    
+    .container_img{
+        height: 150px;
+    }
+    .container_subtitle{
+        width: 80%;
+    }
+    .title_intro{
+        font-size: 1.6rem;
+        line-height: 3rem !important;
+
+    }
+    .heading {
+        font: 1.9rem 'Tenor Sans', serif;    
+    }
+    #nav_mobile {
+        display: block;
+    }
+    #nav_desktop{
+        display: none;
+    }
+    
+}
+.card_container,
+.values_card_container {
+    width: 75%;
+}
+
+
+
+.container_cards_val {
+    justify-content: center;
+
+}
+/*
+@media only screen and (min-width: 576px) {
+
+}*/
+
+@media only screen and (min-width: 576px) {
+
+
+    /* cards responsive sm */
+    .card_container,
+    .values_card_container {
+        min-height: 400px;
+        width: 75%;
+    }
+
+    .sol05_img {
+        width: 100%;
+        height: auto;
+    }
+    .expertise_card_smaller{
+        width: 50%;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .card_container,
+    .values_card_container {
+        width: 42%;
+    }
+    .expertise_card_smaller{
+        width: 33%;
+    }
+    .container_cards_val {
+        justify-content: space-between;
+
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .card_container,
+    .values_card_container {
+        width: 44%;
+    }
+    .expertise_card_smaller{
+        width: 33%;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .card_container {
+        width: 28%;
+    }
+    .expertise_card_smaller{
+        width: 20%;
+    }
+    .values_card_container {
+        width: 20%;
+
+    }
+
+ 
+
+}
+@media only screen and (min-width: 1400px) {
+    .img_y_fit{
+        height: 80%;
+    }
+}
+@media only screen and (min-width: 1600px) {
+    .img_y_fit{
+        height: 90%;
+    }
+}
