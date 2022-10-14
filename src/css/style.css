@@ -1019,8 +1019,11 @@ img {
     font-size: 0.9rem;
     letter-spacing: 0px;
     color: #3C405B;
+    width: 100% !important;
 }
-
+.subsection_list > li{
+    padding: 0.5rem 0;
+}
 .subsection_list {
     list-style: none;
     width: fit-content;
@@ -1101,6 +1104,7 @@ img {
     color: #3C405B;
     opacity: 1;
     margin-bottom: 1rem;
+    padding: 0 1rem !important;
 }
 
 
@@ -1383,7 +1387,7 @@ input::-webkit-datetime-edit {
 }
 
 .about_text {
-    font-size: 1.75rem;
+    font-size: 2rem;
 }
 
 /**/

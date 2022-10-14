@@ -66,36 +66,32 @@ metaDescription: ""
                                     des obligations, à chacune des parties. Expert en matière de procédures RH, notre
                                     cabinet mettra tout en oeuvre pour faire valoir vos droits à travers toutes formes
                                     de communication écrite (en votre nom), vous préparera à vous positionner et vous
-                                    accompagnera à faire face à la situation vis-à-vis de votre employeur.</p>
-                                <p class="description_subsection">Exit l’attente d’une procédure prud’homale ou la
-                                    soumission à une contexte de souffrance, notre cabinet milite pour l’accès au droit
-                                    à la santé pour tous au travail, en considérant la situation de chacun au travail.
+                                    accompagnera tout au long de la situation.</p>
+                                <p class="description_subsection">Nous sommes partisans de solutions non conflictuelles.
+                                    Notre accompagnement a vocation à désamorcer tout risque de litige judiciaire qui
+                                    vous entraînerait dans des procédures longues.
                                 </p>
                                 <p class="description_subsection">​Suivi de près par <span class="fw-bold">un unique
                                         interlocuteur</span> à votre
                                     écoute, l’accompagnement reposera sur:
                                 </p>
                                 <ul class="subsection_list description_subsection">
-                                    <li class="sqr_bullet_li">L’analyse approfondie de la situation</li>
-                                    <li class="sqr_bullet_li">L’étude de votre dossier : mails, courriers, contrats,
+                                    <li>- L’analyse approfondie de la situation</li>
+                                    <li>- L’étude de votre dossier : mails, courriers, contrats,
                                         convention collective,
                                         accords négociés…</li>
-                                    <li class="sqr_bullet_li">Déterminer l’axe de réaction stratégique</li>
-                                    <li class="sqr_bullet_li">Réaliser en votre nom toutes formes de communication
+
+                                    <li>- Réaliser en votre nom toutes formes de communication
                                         écrites (courriers, mails)</li>
-                                    <li class="sqr_bullet_li">Vous préparer aux échanges</li>
-                                    <li class="sqr_bullet_li">Se rapprocher de vos représentants du personnel pour les
+                                    <li>- Vous préparer aux échanges</li>
+                                    <li>- Se rapprocher de vos représentants du personnel pour les
                                         intégrer à la démarche si nécessaire</li>
-                                    <li class="sqr_bullet_li">Accompagnement à la négociation de ruptures
+                                    <li>- Accompagnement à la négociation de ruptures
                                         transactionnelles</li>
-                                    <li class="sqr_bullet_li">Constituer un dossier solide et orientation vers d’autres
-                                        professionnels partenaires, si besoin.</li>
+                                   
                                 </ul>
 
-                                <p class="description_subsection fst-italic">Notre Cabinet travaille en partenariat avec
-                                    un cabinet d'avocats spécialisé en droit du travail, tout en continuant à vous
-                                    accompagner dans cette procédure
-                                </p>
+
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -235,7 +231,7 @@ metaDescription: ""
                     <div class="mx-3 px-3 py-3 px-sm-5 py-sm-5 h-100">
                         <p class="blue mb-5 text-center">Nous vous aidons à vous réapproprier
                             votre destin professionnel.
-                        Pas de standard: une gestion individualisée qui répond à qui vous êtes et à
+                            Pas de standard: une gestion individualisée qui répond à qui vous êtes et à
                             ce que vous vivez.</p>
                         <div>
                             <button class="blue_btn send_btn">Contactez-nous</button>
@@ -253,13 +249,13 @@ metaDescription: ""
                 {%- for acco_cards in collections.acco_cards -%}
                 <div class="expertise_card_smaller">
                     <h2 class="card_title_service">{{acco_cards.data.title}}</h2>
-                        <div class="card_b">
-                            <div class="expertise_img_container_sm"><img src="{{acco_cards.data.image}}"
-                                    alt="{{acco_cards.data.altImage}}"></div>
-                            <div class="card_btn_container">
-                                <button class="card_btn {{acco_cards.data.jqueryClass}}">En savoir plus</button>
-                            </div>
+                    <div class="card_b">
+                        <div class="expertise_img_container_sm"><img src="{{acco_cards.data.image}}"
+                                alt="{{acco_cards.data.altImage}}"></div>
+                        <div class="card_btn_container">
+                            <button class="card_btn {{acco_cards.data.jqueryClass}}">En savoir plus</button>
                         </div>
+                    </div>
                 </div>
                 {%- endfor -%}
             </div>

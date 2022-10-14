@@ -10,7 +10,7 @@ jqueryClass: gouvernance
 bgColor:  bg_blue
 backTitleColor: yellow
 textColor: white
-description: ["Accompagner les modèles de gouvernance au sein du Monde Associatif et d’organisations"]
+description: ["Accompagner les modèles de gouvernance au sein du Monde Associatif et d'Entreprises"]
 descriptionListItem: ["Structuration de l’organisation","Clarification des rôles", "Formalisation des pratiques","Création d’outils sur mesure"]
 buttonBack: card_btn
 ---
