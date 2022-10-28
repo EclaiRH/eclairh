@@ -11,6 +11,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2"
+    "@11ty/eleventy": "^1.0.2",
+    "netlify-plugin-submit-sitemap": "^0.4.0"
+  },
+  "dependencies": {
+    "netlify": "^13.0.1"
   }
 }
